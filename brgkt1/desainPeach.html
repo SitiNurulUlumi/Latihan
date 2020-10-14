@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="desain 5/desain.css">
+    <style>
+      .item1 {  grid-area: atas; }
+      .item2 { grid-area: kiri;}
+      .item3 { grid-area: tengah;}
+      .item4 { grid-area: foto;}
+      .item5 { grid-area: bawah;}
+
+      .grid-container {
+        display: grid;
+        grid-template-areas: 
+        'atas atas atas atas foto'
+        'kiri tengah tengah tengah foto'
+        'bawah bawah bawah bawah foto'
+        grid-gap 250px;
+      }
+    </style> 
+        </head>
+        <body>
+          <div style="background-image: url(Asset\ 1.png);" class="img">
+       
+          <div class="item1">
+            <p >Cursus ultricies<br> consequat ac<br> saggistis</p></div>
+          <div class="item2">
+                <img src="Asset 2.png" alt="" width="100" height="150">
+          </div>
+          <div class="item3"><p><b>Peach</b></p></div>  
+          <div class="item4" ></div>
+          <div class="item5"></div>
+        </div>
+      </div>
+            
+</body>
+</html>

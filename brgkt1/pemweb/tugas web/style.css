@@ -1,0 +1,27 @@
+body{margin: 0; font-family: sans-serif;}
+
+.header{margin: 20px; color: black;}
+
+.logo{float: left;}
+
+.navbar{float: right;}
+
+.navbar ul{list-style: none;}
+
+.navbar ul li{display: inline; margin: 10px;}
+
+.navbar ul li{text-decoration: none;color: black;}
+
+.navbar ul li a{text-decoration:  none;}
+
+.gambar{width: 90%; display: grid; grid-template-columns: 1fr 1fr 1fr;}
+
+.gambar .foto img{width: 300px; height: 300px;}
+
+.foto{border: 1px solid black; margin: 10px; text-align: center;}
+
+.foto a{border: 1px solid green; padding: 10px; color: white; background: green; text-decoration: none; border-radius: 20%; cursor: pointer;}
+
+.footer{text-align: center;}
+
+.footer{text-decoration: none; color: black;}

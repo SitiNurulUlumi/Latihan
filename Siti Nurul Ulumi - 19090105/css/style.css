@@ -1,0 +1,283 @@
+
+.container{
+    /* height: 5px; */
+    max-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    background-color: white;
+}
+
+.container #navbar{
+    position: relative;
+    width: 100%;
+    height: 11vh;
+    box-sizing: border-box;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    z-index: 1;
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+    padding:15px;
+    width: 100%;
+    box-shadow:0 5px 24px rgba(0, 0, 0, 0.05);
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #272D4E ;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover{
+    font-weight: 700;
+    color: black;
+    border-bottom: solid rgb(240, 106, 128);
+}
+
+#home{
+    background-color:pa;
+    align-items: center;
+    background-image: url(img/hv/logo\ fix.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    background-size: cover;
+}
+
+#home .home-text{
+    margin-top: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.home-text h1{
+    color: rgb(255, 188, 199);
+    font-size: 45px;
+    margin-bottom: 42px;
+    padding-top: 170px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.home-text p{
+    font-family: 'Josefin Sans', sans-serif;
+    color: pink;
+    font-size: medium;
+}
+
+.home-text a #lihat{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 50px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    background-color:rgb(209, 119, 134);
+    border-radius: 20px;
+    font-weight: 600;
+    transition: 0.3 ease-in-out;
+    box-shadow: 0 8px 15px rgb(56, 56, 56);
+}
+
+.home-text a #lihat:hover{
+    color: rgb(185, 142, 148);
+    background-color: whitesmoke;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#product{
+    display: flex;
+    padding-left: 5%;
+    height: 180vh;
+    margin-top: 32px;
+    margin: 30px;
+}
+
+#product .daftar-produk h1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(50, 50, 50);
+    margin-bottom: 10px;
+    padding-top: 100px;
+}
+
+#product .daftar-produk ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.daftar-produk .produk{
+    margin-top: 42px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    width: 320px;
+    height: 400px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.daftar-produk .produk .daftar{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.daftar-produk .produk .daftar h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(50, 50, 50);
+}
+
+.daftar-produk .produk .daftar img{
+    width: 200px;
+    height: 200px;
+}
+
+.daftar-produk .produk .daftar h3{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.daftar-produk .produk .daftar p{
+    margin-bottom: 20px;
+}
+
+.daftar-produk .produk .daftar a{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 50px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    background-color: rgb(212, 99, 118);
+    border-radius: 20px;
+    font-weight: 600;
+    transition: 0.3 ease-in-out;
+    box-shadow: 0 8px 15px rgb(77, 47, 52);
+}
+
+.daftar-produk .produk .daftar a:hover{
+    color: #d62828;
+    background-color: #ffffff;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#location{
+    width: 50%;
+    height: 5PX;
+    margin: auto;
+    padding: 5%;
+}
+
+table{
+    margin-top: 42px;
+    border-collapse: collapse;
+    color: rgb(50, 50, 50);
+}
+
+th{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(197, 94, 111);
+    color: white;
+}
+
+tr{
+    border: 2px solid gray;
+    width: 50vh;
+}
+
+th, td{
+    text-align: center;
+    padding: 8px;
+}
+
+#contact{
+    display: flex;
+    margin-top: 70px;
+    height: 100vh;
+    justify-content: space-around;
+    margin: 100px;
+    padding-top: 100px;
+}
+
+.kontak-form{
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.whatsapp{
+    margin-top: 42px;
+    margin-left: 60px;
+
+}
+
+#pesan{
+    padding-bottom: 150px;
+}
+
+.whatsapp input{
+    border: none;
+    border-radius: 5px;
+    margin-top: 12px;
+    width: 70%;
+    padding: 1em 2em;
+    box-shadow: 2px 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+#kirim{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    background-color: palevioletred;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: 0.3 ease-in-out;
+    box-shadow: 0 8px 15px #ff9696;
+}
+
+#kirim:hover{
+    color: pink;
+    background-color: #ffffff;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#footer{
+    height: 5vh;
+    padding-top: 20px;
+    font-size: 18px;
+    color: rgb(148, 70, 83);
+    text-align: center;
+    box-shadow: 2px -12px 24px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}

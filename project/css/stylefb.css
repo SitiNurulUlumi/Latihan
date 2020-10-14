@@ -1,0 +1,29 @@
+.logo {
+    background: #4661b0;
+    text-indent: -999em;
+    width: 100px;
+    height: 110px;
+    position: relative;
+    overflow: hidden;
+    border: 15px solid red;
+
+}
+.logo:before {
+    content: "/20";
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    bottom: -30px;
+    right: -37px;
+    border: 20px solid white;
+}
+
+.logo:after {
+    content: "/20";
+    position: absolute;
+    width: 55px;
+    top: 50px;
+    height: 20px;
+    background: white;
+    right: 5px;
+}

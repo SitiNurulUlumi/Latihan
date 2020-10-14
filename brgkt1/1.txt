@@ -1,0 +1,14 @@
+1 jam 
+folder main repl : new repl dgn nama , pilih html css javascript 
+editor onlen dsama review hasil
+1. tuliskan nama kalian dg tag h1 dan warnanya merah dan menggunakan inline css
+2. alasan masuk plugin dg huruf tebal menggunakan tag paragraf
+3. list riwayat pendidikan menggunakan ol
+4. list akun sosmed yang akandiderect ke profil menggunakan ul
+5. buatlah bg website menjadi warna abu-abu menggunakan eksternal css
+6. tulis alamat lengkap kalian dg tag  paragraf dg tulisan berjalan 
+7. muatkan gambar tokoh artis dari link gambar dan ketentuaan width 300px, height  400px dg menggunakan internal css
+8. jelaskan kenapa milih toko tersebut dg tag paragraf dg warna tulisan terserah dan menggunakan inline css
+biografi alamat ttl tokoh dg tag paragraf menggunakan font helvetica dg uk font 14 px dan warna putih
+ketentuan bg font inline css warna ex css uk menggunakan internal css
+
